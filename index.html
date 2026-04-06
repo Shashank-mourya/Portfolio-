@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Creative Developer</title>
+    <meta name="description" content="Portfolio of a creative developer specializing in premium web experiences.">
+    
+    <!-- Fonts & Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Lucide Icons (CDN) -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+
+    <!-- Pre-loader -->
+    <div id="site-loader">
+        <div class="loader-content">
+            <div class="loader-ring"></div>
+            <h1 class="loader-text gradient-text">SHASHANK</h1>
+            <p class="loader-subtext">Initializing AI Systems...</p>
+        </div>
+    </div>
+
+    <!-- Background Blobs -->
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <a href="#" class="logo gradient-text">SHASHANK</a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero">
+            <div class="container hero-layout">
+                <div class="hero-text">
+                    <h1 class="reveal">I'm <span class="gradient-text">Shashank</span> Mourya</h1>
+                    <p class="reveal">Aspiring Software Engineer & GenAI enthusiast. I architect scalable systems with Python and C++, bridging the gap between innovative design and robust performance.</p>
+                    <div class="cta-group reveal">
+                        <a href="#projects" class="btn btn-primary">My Projects</a>
+                        <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+                    </div>
+                </div>
+                <div class="hero-image reveal" id="hero-photo-wrapper">
+                    <img src="assets/profile-nobg.png" alt="Shashank Mourya" id="hero-photo">
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about">
+            <div class="container small-container">
+                <h2 class="section-title reveal">The Profile</h2>
+                <div class="glass reveal" style="padding: 40px; text-align: center;">
+                    <p style="font-size: 1.25rem; font-weight: 600; color: white; margin-bottom: 15px;">AI Systems Engineer | 9.12 CGPA | <span class="gradient-text">MMCOE, Pune</span></p>
+                    <p style="font-size: 1.1rem; color: var(--text-muted);">Specialized in building high-performance, low-latency AI ecosystems. From engineering sub-1.5s multilingual banking copilots to developing from-scratch predictive models for emergency medical routing, I bridge the gap between complex mathematical logic and production-ready software. Passionate about AI safety, edge intelligence, and building resilient systems for real-world impact.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Domain Explorer -->
+        <section id="domains">
+            <div class="container">
+                <h2 class="section-title reveal">Explore My Domain</h2>
+                <div class="domain-grid">
+                    <div class="domain-card glass reveal">
+                        <i data-lucide="eye"></i>
+                        <h3>AI-Driven Accessibility</h3>
+                        <p>Centered around <strong>Drishti.AI</strong>, implementing high-level ML for social good, focusing on real-time data processing on edge devices.</p>
+                        <div class="tech-tags">
+                            <span class="tech-tag">TensorFlow</span>
+                            <span class="tech-tag">Computer Vision</span>
+                            <span class="tech-tag">Obstacle Detection</span>
+                        </div>
+                    </div>
+                    <div class="domain-card glass reveal">
+                        <i data-lucide="shield-check"></i>
+                        <h3>FinTech & Security</h3>
+                        <p>Through <strong>IGNISIA</strong>, building hardened web infrastructure focusing on document fraud detection and data integrity.</p>
+                        <div class="tech-tags">
+                            <span class="tech-tag">Security</span>
+                            <span class="tech-tag">Fraud Detection</span>
+                            <span class="tech-tag">Backend Arch</span>
+                        </div>
+                    </div>
+                    <div class="domain-card glass reveal">
+                        <i data-lucide="layout-template"></i>
+                        <h3>Immersive UX/UI</h3>
+                        <p>Mastery through <strong>GamerHood</strong>, bridging creative aesthetics and functional software for specialized subcultures.</p>
+                        <div class="tech-tags">
+                            <span class="tech-tag">Figma</span>
+                            <span class="tech-tag">Prototyping</span>
+                            <span class="tech-tag">User Flow</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="projects">
+            <div class="container">
+                <h2 class="section-title reveal">Featured Work</h2>
+                <div class="project-grid">
+                    <!-- Bhasha Desk AI -->
+                    <div class="project-card glass reveal">
+                        <div class="project-tags">
+                            <span class="tag">Whisper ASR</span>
+                            <span class="tag">IndicTrans2</span>
+                            <span class="tag">Llama-3</span>
+                        </div>
+                        <h3>Bhasha Desk AI</h3>
+                        <p>Voice-first banking copilot support for 22 languages with <1.5s latency. Engineered for RBI-compliant audit logging and high-performance multilingual RAG.</p>
+
+                    </div>
+
+                    <!-- PulseRoute -->
+                    <div class="project-card glass reveal">
+                        <div class="project-tags">
+                            <span class="tag">FastAPI</span>
+                            <span class="tag">ML (SHAP)</span>
+                            <span class="tag">Edge AI</span>
+                        </div>
+                        <h3>PulseRoute</h3>
+                        <p>Predictive triage and smart ambulance routing using a proprietary model. Optimizes high-stakes decision-making for critical healthcare infrastructure.</p>
+
+                    </div>
+
+                    <!-- FlowState -->
+                    <div class="project-card glass reveal">
+                        <div class="project-tags">
+                            <span class="tag">FastAPI</span>
+                            <span class="tag">Electron</span>
+                            <span class="tag">AI Inference</span>
+                        </div>
+                        <h3>FlowState</h3>
+                        <p>Privacy-first productivity and wellbeing dashboard utilizing real-time non-content telemetry for cognitive-load detection and proactive burnout prevention.</p>
+                        
+                    </div>
+
+                    <!-- Eisen Inventory -->
+                    <div class="project-card glass reveal">
+                        <div class="project-tags">
+                            <span class="tag">C++</span>
+                            <span class="tag">DSA</span>
+                            <span class="tag">Python</span>
+                        </div>
+                        <h3>Eisen Traders Inventory</h3>
+                        <p>Professionally sponsored industrial enterprise software for supply chain and asset tracking, featuring robust CRUD operations and automated reporting.</p>
+
+                    </div>
+
+                    <!-- Women Safety -->
+                    <div class="project-card glass reveal">
+                        <div class="project-tags">
+                            <span class="tag">React Native</span>
+                            <span class="tag">TypeScript</span>
+                            <span class="tag">Firebase</span>
+                        </div>
+                        <h3>Women Safety Ecosystem</h3>
+                        <p>Cross-platform safety net utilizing real-time sensor fusion and cloud messaging to bridge the gap between mobile hardware and emergency response.</p>
+
+                    </div>
+
+                    <!-- LLM Injection -->
+                    <div class="project-card glass reveal">
+                        <div class="project-tags">
+                            <span class="tag">Security</span>
+                            <span class="tag">Backend</span>
+                            <span class="tag">Data Pipelines</span>
+                        </div>
+                        <h3>LLM Injection Defense</h3>
+                        <p>Streaming-native defense system protecting document pipelines from malicious prompt injections and adversarial attacks in AI-driven enterprises.</p>
+
+                    </div>
+
+                    <!-- Drishti.AI -->
+                    <div class="project-card glass reveal">
+                        <div class="project-tags">
+                            <span class="tag">TensorFlow</span>
+                            <span class="tag">CNNs</span>
+                            <span class="tag">Mobile AI</span>
+                        </div>
+                        <h3>Drishti.AI</h3>
+                        <p>Real-time obstacle detection for visually impaired individuals, delivering high-social-impact independence through environmental awareness.</p>
+
+                    </div>
+
+                    <!-- GamerHood -->
+                    <div class="project-card glass reveal">
+                        <div class="project-tags">
+                            <span class="tag">Figma</span>
+                            <span class="tag">UX/UI</span>
+                            <span class="tag">Visual Design</span>
+                        </div>
+                        <h3>GamerHood</h3>
+                        <p>High-fidelity communication and streaming ecosystem designed for niche subcultures, blending creative aesthetics with functional software.</p>
+
+                    </div>
+
+                    <!-- Food Delivery -->
+                    <div class="project-card glass reveal">
+                        <div class="project-tags">
+                            <span class="tag">React</span>
+                            <span class="tag">Tailwind</span>
+                            <span class="tag">Architecture</span>
+                        </div>
+                        <h3>Food Delivery Engineering</h3>
+                        <p>High-performance frontend focused on fluid user journeys, responsive cart interactions, and modern UI component architecture.</p>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Hackathons Section -->
+        <section id="hackathons">
+            <div class="container">
+                <h2 class="section-title reveal">🏆 Hackathon Achievements</h2>
+                <div class="hackathon-grid">
+                    <!-- IGNISIA 26 -->
+                    <div class="hackathon-card glass reveal">
+                        <div class="hack-header">
+                            <i data-lucide="trophy" class="hack-icon"></i>
+                            <div>
+                                <h3>IGNISIA '26 | National-Level AI Hackathon</h3>
+                                <span class="hack-rank">National Finalist (Top 77 / 1,600+ Teams)</span>
+                            </div>
+                        </div>
+                        <div class="hack-body">
+                            <p style="color: var(--primary); font-weight: 600; margin-bottom: 20px;">Project: PulseRoute</p>
+                            <p><strong>The Challenge:</strong> Building high-stakes decision-making tools for critical healthcare infrastructure where the nearest hospital isn't always the fastest path to care.</p>
+                            <p><strong>Key Innovation:</strong> Developed predictive triage and smart ambulance routing using a proprietary model built from scratch.</p>
+                            <p><strong>Technical Milestone:</strong> Engineered a custom ML architecture utilizing FastAPI (Async), SHAP (Explainability), and an Edge-Ready deployment (< 500KB).</p>
+                        </div>
+                    </div>
+
+                    <!-- XENIA 2026 -->
+                    <div class="hackathon-card glass reveal">
+                        <div class="hack-header">
+                            <i data-lucide="award" class="hack-icon"></i>
+                            <div>
+                                <h3>XENIA Hackathon 2026</h3>
+                                <span class="hack-rank">Top 6 Finalist (Out of 350+ Teams)</span>
+                            </div>
+                        </div>
+                        <div class="hack-body">
+                            <p style="color: var(--primary); font-weight: 600; margin-bottom: 20px;">Project: FlowState</p>
+                            <p><strong>The Challenge:</strong> Designing a privacy-first application at the intersection of workplace productivity, burnout prevention, and real-time AI assistance.</p>
+                            <p><strong>Key Innovation:</strong> Engineered real-time cognitive-load detection from non-content telemetry to predict flow, fatigue, and burnout risk, triggering contextual interventions without storing keystrokes.</p>
+                            <p><strong>Technical Milestone:</strong> Deployed a local-machine Python/FastAPI ML backend combined with an Electron + React responsive desktop dashboard.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills">
+            <div class="container">
+                <h2 class="section-title reveal">Technical Skills</h2>
+                <div class="skills-grid reveal">
+                    <div class="skill-item glass">
+                        <i data-lucide="terminal" style="color: var(--primary); margin-bottom: 15px;"></i>
+                        <p>Python & C/C++</p>
+                    </div>
+                    <div class="skill-item glass">
+                        <i data-lucide="boxes" style="color: var(--primary); margin-bottom: 15px;"></i>
+                        <p>OOP & DSA</p>
+                    </div>
+                    <div class="skill-item glass">
+                        <i data-lucide="brain-circuit" style="color: var(--primary); margin-bottom: 15px;"></i>
+                        <p>GenAI & LLMs</p>
+                    </div>
+                    <div class="skill-item glass">
+                        <i data-lucide="layers" style="color: var(--primary); margin-bottom: 15px;"></i>
+                        <p>Django & REST</p>
+                    </div>
+                    <div class="skill-item glass">
+                        <i data-lucide="code" style="color: var(--primary); margin-bottom: 15px;"></i>
+                        <p>React & JS</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <div class="container">
+                <h2 class="section-title reveal">Let's Connect</h2>
+                <div class="reveal" style="text-align: center; margin-top: 20px;">
+                    <p style="font-size: 1.25rem; color: var(--text-muted); margin-bottom: 15px;">
+                        <i data-lucide="mail" style="color: var(--primary); vertical-align: middle; margin-right: 10px;"></i>
+                        <a href="mailto:shashankmourya00@gmail.com" style="color: white; text-decoration: none;">shashankmourya00@gmail.com</a>
+                    </p>
+                    <p style="font-size: 1.25rem; color: var(--text-muted);">
+                        <i data-lucide="phone" style="color: var(--primary); vertical-align: middle; margin-right: 10px;"></i>
+                        <a href="tel:9373892961" style="color: white; text-decoration: none;">+91 9373892961</a>
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Designed & Built with ❤️ for the Modern Web</p>
+            <div style="margin-top: 20px; display: flex; justify-content: center; gap: 20px;">
+                <a href="#"><i class="fa-brands fa-github fa-lg"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter fa-lg"></i></a>
+                <a href="https://www.linkedin.com/in/shashank-mourya-it" target="_blank"><i class="fa-brands fa-linkedin-in fa-lg"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js?v=2.0"></script>
+    <script>
+        // Initialize Lucide icons
+        lucide.createIcons();
+    </script>
+</body>
+</html>
